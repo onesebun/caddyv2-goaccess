@@ -1,0 +1,7 @@
+:80
+root * /usr/share/caddy
+file_server
+log {
+  output file /var/log/access.log
+  format single_field common_log
+}
